@@ -6,11 +6,17 @@ puts bubble_sort(var)
 puts "\n"
 
 #test on integers
-arr = [12,3,54,1,2]
-puts bubble_sort(arr)
 #expected output 1,2,3,12,54
+arr = [12,3,54,1,2]
+output = bubble_sort(arr)
+if (output==[1,2,3,12,54])
+    puts "#{output}"
+end
 puts "\n"
 #test on strings
-arr = ['bull','ball','zebra','goat','cat']
-puts bubble_sort(arr)
 #expected output ball,bull,cat,goat,zebra
+arr = ['bull','ball','zebra','goat','cat']
+output = bubble_sort(arr)
+if output==['ball','bull','cat','goat','zebra']
+    puts "#{output}"
+end
