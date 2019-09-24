@@ -1,7 +1,16 @@
-#require '../lib/main.rb'
+require '../lib/main.rb'
 
-#array = [23,45,12,55,109,2000,1,56]
+#test on 1 element array
+var = [12]
+puts bubble_sort(var)
+puts "\n"
 
-#output = bubble_sort(array)
-
-#puts "#{output}"
+#test on integers
+arr = [12,3,54,1,2]
+puts bubble_sort(arr)
+#expected output 1,2,3,12,54
+puts "\n"
+#test on strings
+arr = ['bull','ball','zebra','goat','cat']
+puts bubble_sort(arr)
+#expected output ball,bull,cat,goat,zebra
