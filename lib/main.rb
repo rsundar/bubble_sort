@@ -1,4 +1,5 @@
 def bubble_sort(array)
+    return array if array.length <= 1
     swap = true
     while swap do
         swap = false
@@ -14,6 +15,11 @@ def bubble_sort(array)
     array
 end
 
+
+#test on 1 element array
+var = [12]
+puts bubble_sort(var)
+puts "\n"
 
 #test on integers
 arr = [12,3,54,1,2]
