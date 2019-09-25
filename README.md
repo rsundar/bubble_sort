@@ -10,7 +10,7 @@ This project is an implementation of bubble sort and block yielding.There are tw
 ```sh
 $git clone https://www.github.com/rsundar/bubble_sort.git
 ```
-> go spec directory within the repo's folder
+> Go to the spec directory within the repo's folder
 ```sh
 $cd bubble_sort/spec
 ```
