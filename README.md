@@ -1,6 +1,6 @@
 # BUBBLE SORT - ADVANCED BUILDING BLOCKS IN RUBY
 
-This project is an implementation of bubble sort and block yielding.There are two methods in the body of the code.The Bubble_sort method implements the bubble sort algorithm in Ruby whilst the bubble_sort_by implement the a bubble sort algorithm and also take a block by yielding.
+This project is an implementation of the bubble sort algorithm and block yielding.There are two methods in the body of the code.The bubble_sort method implements the bubble sort algorithm in Ruby whilst the bubble_sort_by implements the bubble sort algorithm while also taking in a block by yielding.
 
 ## TECHNOLOGIES USED
 - Ruby
