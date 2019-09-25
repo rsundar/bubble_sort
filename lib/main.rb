@@ -30,6 +30,8 @@ def bubble_sort_by(array)
                 end
             end
         end
+    else
+        raise "Error: No block given!"
     end
     array
 end

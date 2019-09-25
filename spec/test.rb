@@ -27,3 +27,7 @@ puts bubble_sort_by(var)
 arr = ['hi','hello','hey']
 puts bubble_sort_by(arr) {|left,right| left.length - right.length}
 #output should be ['hi','hey','hello']
+
+#No block test should raise an error
+#output -> Error: no block given
+puts bubble_sort_by(arr)
